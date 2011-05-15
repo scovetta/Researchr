@@ -1,0 +1,21 @@
+* {
+    font-family: 'helvetica neue', 'calibri', 'verdana';
+}
+
+div.top {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.column1 {
+    float: left;
+    margin: 0 0 1.5em;
+    width: 600px;
+}
+
+.column2 {
+    display: inline;
+    float: right;
+    margin: 0 0 1.5em;
+    width: 340px;
+}

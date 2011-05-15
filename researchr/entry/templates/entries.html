@@ -1,0 +1,14 @@
+{% extends "standard.html" %}
+
+{% block content %}
+
+Entries:
+<ul>
+{% for entry in entries %}
+    <li>{{entry.id}}: {{entry.title}}
+    <a href="{{entry.local_url.url}}">download</a>
+    </li>
+{% endfor %}
+</ul>
+
+{% endblock %}
